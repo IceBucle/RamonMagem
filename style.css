@@ -48,8 +48,8 @@ header > h1 {
     font-size: 1em;
     font-weight: bold;
     border-radius: 1em;
-    background-color: #000a;
-    color: #fff;
+    background-color: #fff;
+    color: rgb(142, 7, 245);
     padding: 0.3em 0.6em;
     margin-top: 5px;
     border: 2px solid #fff;
