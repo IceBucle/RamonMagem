@@ -35,7 +35,7 @@ header {
 
 }
 
-header > img {
+picture > img {
     width: 6em;
     height: 6em;
     border-radius: 50%;

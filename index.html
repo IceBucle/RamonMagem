@@ -5,10 +5,13 @@
     <title>Ramon Magem - Marbles</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="./images/icon.ico">
-    <link rel="stylesheet" type="text/css" href="./style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <meta name="description" content="Ramon Magem - Marbles">
+    <meta name="author" content="IceBucle">
+    <link rel="shortcut icon" href="./images/icon.ico"type="image/x-icon">
+    <link rel="apple-touch-icon" href="/images/logo.png">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js" defer></script>
     <script>
         window.addEventListener('DOMContentLoaded', () => {
             VANTA.BIRDS({
@@ -43,37 +46,42 @@
     </div>
     <main>
         <header>
-            <img src="./images/logo.PNG" alt="Logo">
+            <picture>
+                <source type="image/webp" srcset="./images/logo.webp">
+                <source type="image/jpeg" srcset="./images/logo.PNG">
+                <img src="./images/logo.PNG" alt="Logo" title="Ramon Magem Logo" >
+            </picture>
+            <!--<img src="./images/logo.PNG" alt="Logo">-->
             <h1>Ramon Magem</h1>
         </header>
         <ul>
             <li>
                 <a href="https://icebucle.github.io/RamonMagem/">
-                    <img src="./images/homepage.svg" alt="Website" width="20">
+                    <img src="./images/homepage.svg" alt="Website" width="20" height="20">
                     Website
                 </a>
             </li>
             <li>
                 <a href="https://www.gmail.com/">
-                    <img src="./images/gmail.svg" alt="Gmail" width="23">
+                    <img src="./images/gmail.svg" alt="Gmail" width="22" height="22">
                     Gmail
                 </a>
             </li>
             <li>
                 <a href="https://facebook.com/">
-                    <img src="./images/facebook.svg" alt="Facebook" width="20">
+                    <img src="./images/facebook.svg" alt="Facebook" width="20" height="20">
                     Facebook
                 </a>
             </li>
             <li>
                 <a href="https://twitter.com/">
-                    <img src="./images/twitter.svg" alt="Twitter" width="20">
+                    <img src="./images/twitter.svg" alt="Twitter" width="20" height="20">
                     Twitter
                 </a>
             </li>
             <li>
                 <a href="https://instagram.com/">
-                    <img src="./images/instagram.svg" alt="Instagram" width="23">
+                    <img src="./images/instagram.svg" alt="Instagram" width="23" height="23">
                     Instagram
                 </a>
             </li>
