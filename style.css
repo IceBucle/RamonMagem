@@ -38,9 +38,9 @@ header {
 picture > img {
     width: 6em;
     height: 6em;
-    border-radius: 20%;
-    /*border: 2px solid #fff;*/
-    /*box-shadow: rgb(28 32 93 / 24%) 0 2px 8px 0;*/
+    border-radius: 25%;
+    border: 2px solid rgb(142, 7, 245);
+    box-shadow: rgb(28 32 93 / 24%) 0 2px 8px 0;
 }
 
 header > h1 {
