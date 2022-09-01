@@ -35,6 +35,11 @@ header {
 
 }
 
+picture {
+    width: 115px;
+    height: 110px;
+}
+
 picture > img {
     width: 115px; /*6em*/
     height: 110px;
