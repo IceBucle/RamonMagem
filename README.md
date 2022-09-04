@@ -1,5 +1,5 @@
-# Ramon Magem - Marbles :star:
+# :star: Ramon Magem - Marbles
 
-### Page with social media links :globe_with_meridians:
+### :globe_with_meridians: Page with social media links
 
-![marble block](./images/bg2.jpg)
+![marble block](./images/quarry.jpg)

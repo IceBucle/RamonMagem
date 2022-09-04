@@ -41,11 +41,11 @@ picture {
 }
 
 picture > img {
-    width: 115px; /*6em*/
+    width: 115px;
     height: 110px;
     border-radius: 25%;
     border: 2px solid rgb(142, 7, 245);
-    box-shadow: rgb(28 32 93 / 24%) 0 2px 8px 0;
+    box-shadow: rgb(28 32 93 / 25%) 0 2px 8px 0;
 }
 
 header > h1 {
